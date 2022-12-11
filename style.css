@@ -192,7 +192,7 @@ a
 
 .section4
 {
-    padding: 100px 260px;
+    padding: 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,10 +203,11 @@ a
     background-color: #3882f6;
     display: flex;
     border-radius: 10px;
-    padding: 100px ;
+    padding: 50px;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    gap: 30px;
+    width: 60%;
 
 }
 
@@ -222,6 +223,7 @@ a
     border: 3px solid #F9FAF8;
     border-radius: 10px;
     padding: 10px 35px;
+    text-align: center;
 }
 
 .cutie5 h1

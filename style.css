@@ -43,6 +43,7 @@
 
 .section1
 {
+    padding: 100px;
     background-color: #1F2937;
     height: 50vh;
     display: flex;
@@ -51,19 +52,22 @@
     gap: 40px;
 }
 
+.section1 div
+{
+    flex: 0 1 auto;
+}
+
 .section1 h1
 {
     color:#F3FAF8;
     font-size: 48px;
     font-weight:900;
-    width: 400px;
 }
 
 .section1 p
 {
     font-size: 18px;
     color: #E5E7EB;
-    width: 500px;
     margin-top: 5px;
 }
 
@@ -80,11 +84,16 @@
     text-decoration: none;
 }
 
+.section1 .cutie1
+{
+    max-width: 450px;
+}
+
 .section1 .cutie2
 {
     background-color: grey;
     height: 250px;
-    width: 600px;
+    flex-basis: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,6 +116,9 @@
 .section2 h1
 {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .cutie3
@@ -122,10 +134,17 @@
     margin-right: auto;
 }
 
-.cutie3 div
+.imagine
 {
     border: 5px solid #3882f6;
     flex-basis: 200px;
     height: 200px;
-    border-radius: 7px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.cutie3 p
+{
+    width: 200px;
+    height: fit-content;
 }

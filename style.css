@@ -2,7 +2,10 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* Sectiunea header inceput */
 
 .header
 {
@@ -10,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 10vh;
 }
 
 .header ul
@@ -31,4 +34,61 @@
 {
     font-size: 24px;
     color:#F9FAF8;
+}
+
+/* Sectiunea header final */
+
+/* Sectiunea 1 inceput */
+
+.section1
+{
+    background-color: #1F2937;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.section1 h1
+{
+    color:#F3FAF8;
+    font-size: 48px;
+    font-weight:900;
+    width: 400px;
+}
+
+.section1 p
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.section1 a
+{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.section1 .cutie2
+{
+    background-color: grey;
+    height: 205px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.cutie2 p
+{
+    text-align: center;
 }

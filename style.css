@@ -93,3 +93,38 @@
 {
     text-align: center;
 }
+
+/* Section 1 end*/
+
+/* Section 2 begin */
+
+.section2
+{
+    padding: 40px;
+}
+
+.section2 h1
+{
+    text-align: center;
+}
+
+.cutie3
+{
+    display: flex;
+    height: 300px;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cutie3 div
+{
+    border: 5px solid #3882f6;
+    flex-basis: 200px;
+    height: 200px;
+    border-radius: 7px;
+}

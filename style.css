@@ -6,6 +6,11 @@
     font-family: sans-serif;
 }
 
+a
+{
+    text-decoration: none;
+}
+
 /* Sectiunea header inceput */
 
 .header
@@ -25,7 +30,6 @@
 
 .header a
 {
-    text-decoration: none;
     font-size: 18px;
     color:#E5E7EB;
     padding: 20px;
@@ -179,4 +183,53 @@
     color: #1F2937;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* Section 3 end */
+
+/* Section 4 begin */
+
+.section4
+{
+    padding: 130px 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cutie5
+{
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 100px ;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.cutie5, a
+{
+    color: #F9FAF8;
+}
+
+.cutie5 a
+{
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 35px;
+}
+
+.cutie5 h1
+{
+    font-size: 30px;
+}
+
+.cutie5 p
+{
+    font-size: 20px;
+    color: #E5E7EB;
 }

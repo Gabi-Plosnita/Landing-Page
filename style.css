@@ -63,7 +63,7 @@
 {
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    width: 500px;
     margin-top: 5px;
 }
 
@@ -83,10 +83,11 @@
 .section1 .cutie2
 {
     background-color: grey;
-    height: 205px;
-    width: 400px;
+    height: 250px;
+    width: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cutie2 p

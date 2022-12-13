@@ -49,11 +49,11 @@ a
 {
     padding: 100px;
     background-color: #1F2937;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .section1 div
@@ -73,6 +73,7 @@ a
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 5px;
+    max-width: 450px;
 }
 
 .section1 a
@@ -88,19 +89,11 @@ a
     text-decoration: none;
 }
 
-.section1 .cutie1
+.section1 img
 {
-    max-width: 450px;
-}
-
-.section1 .cutie2
-{
-    background-color: grey;
+    width: 500px;
     height: 250px;
-    flex-basis: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: 0,1,200px;
 }
 
 .cutie2 p
@@ -115,6 +108,7 @@ a
 .section2
 {
     padding: 40px;
+    text-align: center;
 }
 
 .section2 h1
@@ -137,11 +131,18 @@ a
     margin-right: auto;
 }
 
+.cutie3 div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .imagine
 {
     border: 5px solid #3882f6;
-    flex-basis: 200px;
-    height: 200px;
+    max-width: 250px;
+    height: 170px;
     border-radius: 15px;
     margin-bottom: 15px;
 }
@@ -208,6 +209,7 @@ a
     justify-content: space-around;
     gap: 30px;
     width: 60%;
+    flex-wrap: wrap;
 
 }
 
